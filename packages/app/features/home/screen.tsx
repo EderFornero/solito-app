@@ -26,10 +26,18 @@ export function HomeScreen() {
             }}
             sx={{ color: 'blue' }}
           >
-            Fernando Rojo
+            Fernando Rojo !!!
           </A>
           .
         </P>
+
+        <P>This link going to the 
+          <TextLink href='/example/example-screen'
+           textProps={{
+            style: sx({ fontSize: 18, fontWeight: 'bold', color: 'red' }),
+          }}
+          >Example Screen</TextLink>
+          </P>
       </View>
       <View sx={{ height: 32 }} />
       <Row>
